@@ -1,0 +1,16 @@
+<table align="center">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>bhavika</td>
+  
+            <!-- This cell will take up
+                space on two rows -->
+            <td rowspan="2">25</td>
+        </tr>
+        <tr>
+            <td>Komal</td>
+        </tr>
+    </table>

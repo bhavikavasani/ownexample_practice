@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colspan Example</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 6px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table align="center">
+        <tr>
+            <th>Name</tMh>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>ram</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>riya</td>
+            <td>28</td>
+        </tr>
+        <!-- The last row -->
+    
+        <tr>
+            <!-- This td will span two 
+                columns, that is a 
+                single column will take 
+                up the space of 2 -->
+            <td colspan="2">Sum: 48</td>
+        </tr>
+    </table>    
+</body>
+</html>
+
